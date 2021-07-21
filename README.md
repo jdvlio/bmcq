@@ -16,7 +16,6 @@ arbitrarily large sets of multiple choice questions).  If this script is in
 your current working directoy you run the following command:
 ```
  $ ./bmcq -v memo="ccccc"
- 
 ```
 # My (justified) rant
 
