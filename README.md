@@ -8,7 +8,7 @@ what they should have done right in the first place.
 
 This script is written to total marks based on a `.csv` file from the Blackboard
 Learn "software suite". Its use is **limited to** assessments where all the
-multiple choice questions were put in a *seperate* Blackboard test.
+multiple choice questions were put in a *separate* Blackboard test.
 
 # Usage instructions
 
