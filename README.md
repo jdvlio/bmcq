@@ -17,7 +17,7 @@ is answering `(c)` for every question and there were 5 questions (it works for
 arbitrarily large sets of multiple choice questions).  If this script is in
 your current working directoy you run the following command:
 ```
- $ ./bmcq -v memo="ccccc"
+ $ ./bmcq -v memo="ccccc" file.csv
 ```
 # My (justified) rant
 
