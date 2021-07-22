@@ -24,7 +24,7 @@
 function grade(sum) {
 	_unused = split($0, entry, ",")	# create an array from the records of the csv file
 	for ( i = 0; i < questions; i++ ) {
-		if (entry[initial+i*distance] == correct[i]) sum += 1
+		if (entry[initial+i*distance] == correct[i+1]) sum += 1
 	}
 	return sum
 }
