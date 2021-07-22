@@ -2,7 +2,7 @@
 
 A simple (perhaps mundane) AWK script that adds up grades for multiple choice questions,
 the answers having been exported as a csv from Blackboard Learn.  Basically, it fixes
-what they should have done right in the first place.
+what they should have been done right in the first place.
 
 # Description
 
