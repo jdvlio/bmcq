@@ -4,6 +4,11 @@ A simple (perhaps mundane) AWK script that adds up grades for multiple choice qu
 the answers having been exported as a `.csv` from Blackboard Learn.  Basically, it fixes
 what should have been done right in the first place.
 
+**Important note:** as this tool was created for mathematics students, and Blackboard's
+\(TeX\) formatting is the stuff of nightmares, our "questions" were *PNG files which*
+*contained the various possible answers.*  Hence, the choices presented by Blackboard
+itself were simply `(a)` through `(e)`.
+
 # Description
 
 This script is written to total marks based on a `.csv` file from the Blackboard
