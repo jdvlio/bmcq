@@ -38,7 +38,6 @@ formats understood by Blackboard Learn.
 - [ ] Have the responses be read from a file instead of as a cli argument
 
 # My (somewhat justified) rant
-<a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 International License</a>
 
 This serves as proof that we should not turn our backs on older software just
 because we have newer, shinier things that are so convoluted that, at best,
