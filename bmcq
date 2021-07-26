@@ -22,7 +22,7 @@ function grade(sum) {
 	columns = split($0, entry, ",")	# create an array from the records of the csv file
 	questions =  ( columns - 3 ) / distance
 	for ( i = 0; i < questions; i++ ) {
-		if (entry[initial+i*distance] == "\"1\") sum += 1
+		if (entry[initial+i*distance] == "\"1\"") sum += 1
 	}
 	return sum
 }
