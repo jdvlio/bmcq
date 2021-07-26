@@ -15,19 +15,12 @@ BEGIN {
 	distance = 6
 	FS = ","
 
-	# split them memo string to create an array
-	questions = split(memo, correct, "")
-
-	for (answer in correct) {
-		# properly format the strings in the array
-		correct[answer] =  "\"(" correct[answer] ")\""
-	}
-
 }
 
 # define function that totals student marks
 function grade(sum) {
-	_unused = split($0, entry, ",")	# create an array from the records of the csv file
+	columns = split($0, entry, ",")	# create an array from the records of the csv file
+	questions =  ( columns - 3 ) / distance
 	for ( i = 0; i < questions; i++ ) {
 		if (entry[initial+i*distance] == "1") sum += 1
 	}
