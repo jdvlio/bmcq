@@ -9,25 +9,20 @@ what should have been done right in the first place.
 This script is written to total marks based on a `.csv` file from the Blackboard
 Learn "software suite". CUrrently, use is limited to assessments where all the*
 multiple choice questions were put in a **separate** Blackboard test.
+Additionally, make sure that the "short" output is chosen.  This is done, when
+exporting from BBL, to choose grouping by users only and **not also by question**.
 
 # Usage instructions
 
-**Important note:** as this tool was created for mathematics students, and Blackboard's
-*TeX* formatting is the stuff of nightmares, our "questions" were *PNG files which*
-*contained the various possible answers.*  Hence, the choices presented by Blackboard
-itself were simply `(a)` through `(e)`.  However, **see the "Goals" section below.**
-
-All the cases are the same so an example suffices.  Suppose the correct solution
-is answering `(c)` for every question and there were 5 questions (it works for
-arbitrarily large sets of multiple choice questions).  If this script is in
-your current working directoy you simply run the following command:
+If this script is in your current working directoy you simply run the following
+command:
 ```
-$ ./bmcq -v memo="ccccc" file.csv
+$ ./bmcq file.csv
 ```
 __By default it prints to standard output__ so if you prefer to have the results
 stored in a file, rather than dumped in your terminal, the following is sufficient:
 ```
-$ ./bmcq -v memo="ccccc" file.csv > output.csv
+$ ./bmcq file.csv > output.csv
 ```
 Note that the output produced is itself also in `.csv` format as this is one of the few
 formats understood by Blackboard Learn.
